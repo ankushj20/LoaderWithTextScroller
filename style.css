@@ -1,0 +1,83 @@
+@font-face {
+    font-family: back;
+    src: url(./Heading-Now-Variable.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%
+}
+#loader{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    position: fixed;
+    z-index: 99;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+
+}
+#page1 #nav{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+}
+#lft{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    font-family: back;
+    font-stretch: 800%;
+    font-size: 40px;
+    color: #fff;
+    padding-left: 80px;
+}
+#rgt{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: back;
+    font-stretch: 1000%;
+    font-size: 15px;
+    gap: 100px;
+    color: #fff;
+}
+#rgt h4{
+    font-weight: 300;
+
+}
+
+#lft h3{
+    font-weight: 400;
+
+}
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(66, 65, 65);
+
+}
+#page1 h1{
+    font-size: 40vw;
+    color: #fff;
+    white-space: nowrap;
+    font-family: back;
+    font-stretch: 260%;
+    margin-top: -200px;
+    font-weight: 999;
+}
